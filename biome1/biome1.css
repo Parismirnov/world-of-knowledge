@@ -1,0 +1,16 @@
+.section-c1{
+    width: 100%;
+    height: 60rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://c.wallhere.com/photos/a6/bf/Minecraft_shaders_video_games_CGI_cube_trees_bees_flowers-2246230.jpg!d");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
