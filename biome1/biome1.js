@@ -1,5 +1,5 @@
-let section = document.createElement('div');
-section.className = "section-c1"
+let section = document.createElement('section');
+section.className = "section-b1"
 
 let h1 = document.createElement('h1');
 h1.className = "titulo-b1";

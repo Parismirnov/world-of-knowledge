@@ -1,9 +1,6 @@
-.section-c1{
+.section-b1 {
     width: 100%;
-    height: 61.8rem;
-    border: 1px solid black;
-    padding: 20px;
-
+    height: 100vh; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,18 +9,30 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
 .titulo-b1 {
-    font-size: 90px;
+    font-size: 5vw; 
     color: white;
     font-family: "Shadows Into Light", serif;
+    text-align: center; 
+    margin: 0;
 }
 
 .titulo2-b1 {
-    font-size: 70px;
+    font-size: 4vw; 
     color: white;
     font-family: "Shadows Into Light", serif;
+    text-align: center;
+    margin: 0;
 }
 
+@media (max-width: 768px) {
+    .titulo-b1 {
+        font-size: 8vw; /* Ajusta el tamaño del texto para pantallas pequeñas */
+    }
+
+    .titulo2-b1 {
+        font-size: 6vw; /* Reduce proporcionalmente el tamaño del subtítulo */
+    }
+}
