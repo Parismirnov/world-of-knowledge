@@ -1,50 +1,19 @@
-.section-b1 {
+.section-I1 {
     width: 100%;
     height: 100vh; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("https://c.wallhere.com/photos/a6/bf/Minecraft_shaders_video_games_CGI_cube_trees_bees_flowers-2246230.jpg!d");
+    background-image: url("https://c.wallhere.com/photos/f6/aa/Minecraft_CGI_Shader_ray_tracing_Nvidia_RTX-2280584.jpg!d");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.contenedor-b1{
-    width: 90%;
-    max-width: 1200px;
-    height: 90%;
-    border: 1px solid white;
 
-    display: grid;
-    grid-template-columns: 2fr 4fr ;
-    grid-template-rows: 1fr 1fr 1fr;
-}
 
-.lista-b1{
-    width: 100%;
-    max-width:30rem;
-    height: 20%;
-    margin: auto;
-    border: 1px solid white;
-
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-
-.menu-b1{
-    width: 90%;
-    max-width: 120rem;
-    height: 20%;
-    margin: auto;
-    border: 1px solid white;
-
-    grid-column: 2/3;
-    grid-row: 1/2;
-}
-
-.titulo-b1 {
+.titulo-I1 {
     font-size: 5vw; 
     color: white;
     font-family: "Shadows Into Light", serif;
@@ -52,29 +21,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 
-    grid-row: 2/3;
-    grid-column: 2/3;
 }
 
-.titulo2-b1 {
+.titulo2-I1 {
     font-size: 4vw; 
     color: white;
     font-family: "Shadows Into Light", serif;
 
     display: flex;
     justify-content: center;
-
-    grid-row: 3/4;
-    grid-column: 2/3;
 }
 
 @media (max-width: 768px) {
-    .titulo-b1 {
+    .titulo-I1 {
         font-size: 8vw; /* Ajusta el tamaño del texto para pantallas pequeñas */
     }
 
-    .titulo2-b1 {
+    .titulo2-I1 {
         font-size: 6vw; /* Reduce proporcionalmente el tamaño del subtítulo */
     }
 }
+
+
