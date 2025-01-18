@@ -9,30 +9,39 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
+    text-align: center; /* Asegura un buen alineamiento del texto */
+    padding: 20px; /* Evita que los textos se peguen a los bordes en pantallas pequeñas */
 }
-
-
 
 .titulo-I1 {
     font-size: 5vw; 
     color: white;
     font-family: "Shadows Into Light", serif;
-    
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Mejora la legibilidad del texto */
+    margin-bottom: 10px; /* Espacio entre títulos */
 }
 
 .titulo2-I1 {
     font-size: 4vw; 
     color: white;
     font-family: "Shadows Into Light", serif;
-
     display: flex;
     justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Misma mejora de legibilidad */
+}
+
+@media (max-width: 1024px) {
+    .titulo-I1 {
+        font-size: 6vw; /* Ajuste para pantallas medianas */
+    }
+
+    .titulo2-I1 {
+        font-size: 5vw; 
+    }
 }
 
 @media (max-width: 768px) {
@@ -41,8 +50,16 @@
     }
 
     .titulo2-I1 {
-        font-size: 6vw; /* Reduce proporcionalmente el tamaño del subtítulo */
+        font-size: 6.5vw; /* Reduce proporcionalmente el tamaño del subtítulo */
     }
 }
 
+@media (max-width: 480px) {
+    .titulo-I1 {
+        font-size: 10vw; /* Ajuste para pantallas muy pequeñas */
+    }
 
+    .titulo2-I1 {
+        font-size: 8vw; 
+    }
+}
