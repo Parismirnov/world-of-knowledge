@@ -23,7 +23,8 @@
 
     grid-column: 1/2;
     grid-row: 1/3;
-    border: 1px solid rgb(12, 11, 11);
+    border: 1px solid rgb(135, 190, 71);
+    border-radius: 1rem;
 
     display: flex;
     flex-direction: column;
@@ -31,18 +32,27 @@
     padding: 10px;
     gap: 0.5rem;
 
-    overflow-y: auto;
-
+    overflow-y: auto; /* Habilita el scroll vertical */
 }
 
 .contenedor::-webkit-scrollbar {
-    width: 20px;
+    width: 5px; /* Ancho del scrollbar */
 }
 
-.contenedor div{
-    width: 9rem;
+.contenedor div {
+    width: 6rem;
     height: 5rem;
-    border: 1px solid rgb(12, 11, 11);
+    border: 1px solid rgb(255, 183, 49);
+    border-radius: 1rem;
+    
+    flex-shrink: 0; /* Previene que los divs se reduzcan con el scroll */
+}
+
+.contenedor div .img-b1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
     border-radius: 1rem;
 }
 
@@ -50,12 +60,24 @@
     width: 100%;
     max-width: 50rem;
     height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     align-self: center;
     justify-self: center;
 
     grid-column: 2/3;
     grid-row: 1/2;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(135, 190, 71);
+    border-radius: 1rem;
+
+}
+
+.contenedor2 h1{
+    font-size: 3.5rem;
+    font-family: "Shadows Into Light", serif;
+    color: rgb(44, 143, 135);
 }
 
 .contenedor3 {
@@ -67,5 +89,7 @@
 
     grid-column: 2/3;
     grid-row: 2/3;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(135, 190, 71);
+    border-radius: 1rem;
+
 }
