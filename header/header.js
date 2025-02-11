@@ -97,7 +97,7 @@ menu.innerHTML = `
 contenedor.appendChild(menu);
 
 let tutoriales = [
-    {nombre: "Crafting", link: "tutoriales/crafting.html"},
+    {nombre: "Crafting", link: "tutoriales/crafts.html"},
     {nombre: "Potions", link: "tutoriales/potions.html"},
     {nombre: "Enchantments", link: "tutoriales/enchantments.html"},
     {nombre: "Trading", link: "tutoriales/trading.html"},

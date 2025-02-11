@@ -1,0 +1,49 @@
+.crafts1{
+    width: 100%;
+    max-width: 1200px;
+    height: 100vh;
+    background-image: url("https://c.wallhere.com/photos/75/d2/Minecraft_CGI_Shader_ray_tracing_Nvidia_RTX_interior-2280596.jpg!d");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem auto 5rem;
+}
+
+.contenedor1-c{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.contenedor1-c h1{
+    font-size: 3.5rem;
+    font-family: "Shadows Into Light", serif;
+    color: rgb(209, 167, 128);
+}
+
+.contenedor2-c{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+
+.contenedor2-c .mesa{
+    width: 22rem;
+    height: 22rem;
+}
+
+.mesa img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
